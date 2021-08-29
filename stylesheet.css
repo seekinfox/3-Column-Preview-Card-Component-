@@ -1,0 +1,199 @@
+html,
+body {
+    width: 100%;
+    margin: 0 auto;
+    /*  font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Lexend Deca', sans-serif;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+:root {
+    --Bright-orange: hsl(31, 77%, 52%);
+    --Dark-cyan: hsl(184, 100%, 22%);
+    --Very-dark-cyan: hsl(179, 100%, 13%);
+    --Transparent-white: hsla(0, 0%, 100%, 0.75);
+    --Very-light-gray: hsl(0, 0%, 95%);
+}
+
+#main-card {
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.7rem 0.7rem 0 0;
+}
+
+.card {
+    width: 80%;
+    margin: 3rem auto;
+    box-sizing: border-box;
+    padding-right: 1.5rem;
+}
+
+/*card color section*/
+#color1 {
+    background: var(--Bright-orange);
+    width: 100%;
+    border-radius: 0.7rem 0.7rem 0 0;
+}
+
+#color2 {
+    background: var(--Dark-cyan);
+    width: 100%;
+
+}
+
+#color3 {
+    background: var(--Very-dark-cyan);
+    width: 100%;
+    border-radius: 0px 0 0.7rem 0.7rem;
+}
+
+/*card color section ends*/
+img {
+    padding-top: 1rem;
+}
+
+.h2 {
+    color: var(--Very-light-gray);
+    line-height: 1;
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+}
+
+p {
+    color: var(--Transparent-white);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    padding-right: 0.6rem;
+}
+
+p.button1 {
+    margin-top: 2rem;
+    background: var(--Very-light-gray);
+    width: 60%;
+    padding: 0.8rem 0;
+    text-align: center;
+    border-radius: 2rem 2rem 2rem 2rem;
+    cursor: pointer;
+}
+
+p.button1:hover {
+    box-shadow: 0px 0px 0px 2px white;
+    background: rgba(0, 0, 0, 0);
+}
+
+
+p.button2 {
+    margin-top: 2rem;
+    background: var(--Very-light-gray);
+    width: 60%;
+    padding: 0.8rem 0;
+    text-align: center;
+    border-radius: 2rem 2rem 2rem 2rem;
+    cursor: pointer;
+}
+
+p.button2:hover {
+    box-shadow: 0px 0px 0px 2px white;
+    background: rgba(0, 0, 0, 0);
+}
+
+
+p.button3 {
+    margin-top: 2rem;
+    background: var(--Very-light-gray);
+    width: 60%;
+    padding: 0.8rem 0;
+    text-align: center;
+    border-radius: 2rem 2rem 2rem 2rem;
+    cursor: pointer;
+}
+
+p.button3:hover {
+    box-shadow: 0px 0px 0px 2px white;
+    background: rgba(0, 0, 0, 0);
+}
+
+a {
+    text-decoration: none;
+    padding: 1rem;
+}
+
+a#one {
+    color: var(--Bright-orange);
+}
+
+a#one:hover {
+    color: whitesmoke;
+}
+
+a#two {
+    color: var(--Dark-cyan);
+}
+
+a#two:hover {
+    color: whitesmoke;
+}
+
+a#three {
+    color: var(--Very-dark-cyan);
+}
+
+a#three:hover {
+    color: whitesmoke;
+}
+
+@media (min-width: 1000px) {
+
+    html,
+    body {
+        width: 100%;
+        height: 100%;
+        background: var(--Very-light-gray);
+       
+        display: flex;
+        flex-direction: row;
+       
+    }
+
+    #main-card {
+        width: 60rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0.7rem 0.7rem 0.7rem 0.7rem;
+    }
+
+    #color1 {
+        border-radius: 0.7rem 0 0 0.7rem;
+    }
+
+    #color3 {
+        border-radius: 0 0.7rem 0.7rem 0;
+    }
+
+    .card {
+        padding: 0;
+    }
+
+    p.button {
+        margin-top: 5rem;
+    }
+
+    p {
+        padding-right: 1.9rem;
+    }
+
+}

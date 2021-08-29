@@ -1,36 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap" rel="stylesheet">
+    <title>Frontend Mentor | 3-column preview card component</title>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | 3-column preview card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
+
 <body>
-  
-  Sedans
-  Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city 
-  or on your next road trip.
+    <div id="main-card">
+        <div id="color1">
+            <div class="card">
+                <img src="https://raw.githubusercontent.com/seekinfox/3-Column-Preview-Card-Component-/e8f98f44ff370d3eb969073c0226c1159d035ffe/images/icon-sedans.svg" alt="icon-logo">
+                <p class="h2">Sedans</p>
+                <p>
+                    Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city
+                    or on your next road trip.
+                </p>
+                <p class="button1 button"><a id="one" href="#">Learn More</a></p>
+            </div>
+        </div>
+        <div id="color2">
+            <div class="card">
+                <img src="https://raw.githubusercontent.com/seekinfox/3-Column-Preview-Card-Component-/e8f98f44ff370d3eb969073c0226c1159d035ffe/images/icon-suvs.svg" alt="icon-logo">
+                <p class="h2">SUVs</p>
+                <p>
+                    Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation and off-road adventures.
+                </p>
+                <p class="button2 button"><a id="two" href="#">Learn More</a></p>
+            </div>
+        </div>
+        <div id="color3">
+            <div class="card">
+                <img src="https://raw.githubusercontent.com/seekinfox/3-Column-Preview-Card-Component-/e8f98f44ff370d3eb969073c0226c1159d035ffe/images/icon-luxury.svg" alt="icon-logo">
+                <p class="h2">Luxury</p>
+                <p>
+                    Cruise in the best car brands without the bloated prices
+                    Enjoy the enhanced comfort of a luxury rental and arrive in style.
+                </p>
+                <p class="button3 button"><a id="three" href="#">Learn More</a></p>
+            </div>
+        </div>
+    </div>
+    <!--<div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">Your Name Here</a>.
+    </div>-->
 
-  SUVs
-  Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation 
-  and off-road adventures.
-
-  Luxury
-  Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury 
-  rental and arrive in style.
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
 </body>
+
 </html>
