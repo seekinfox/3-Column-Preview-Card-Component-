@@ -40,7 +40,7 @@ Users should be able to:
 
 ### Continued development
 
-Doing more layout project so i could get comfortable enough with html/css.
+Doing more layout projects so i could get comfortable enough with html/css.
 
 
 ## Author
